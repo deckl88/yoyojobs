@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:tools = "http://schemas.android.com/tools"
+    tools:showIn = "navigation_view"
+    android:id="@+id/activity_nav_drawer"
+    >
+
+    <group android:checkableBehavior = "single">
+
+        <item android:id="@+id/profile"
+            android:title="@string/my_profile"
+            android:icon="@drawable/profile"/>
+        <item
+            android:id="@+id/home"
+            android:title="@string/home"
+            android:icon="@drawable/homepage"/>
+        <item
+            android:id="@+id/search"
+            android:title="@string/search_jobs"
+            android:icon="@drawable/searchjobs"/>
+        <item
+            android:id="@+id/create_resume"
+            android:title="@string/create_resume"
+            android:icon="@drawable/createresume"/>
+        <item
+            android:id="@+id/contact"
+            android:title="@string/contact_us"
+            android:icon="@drawable/contactus"/>
+
+    </group>
+
+
+
+</menu>

@@ -1,0 +1,53 @@
+<resources>
+    <string name = "app_name">YoYoJobsProject</string>
+    <string name = "login_text">Log In</string>
+    <string name = "logout_text">Log Out</string>
+    <string name = "user_name">Username</string>
+    <string name = "pass_word">Password</string>
+    <string name = "register">Register Here.</string>
+    <string name = "login_attempts">Number of attempts remaining:</string>
+    <string name = "search_jobs">Search Jobs</string>
+    <string name = "create_resume">Create Resume</string>
+    <string name = "contact_us">Contact Us</string>
+    <string name = "not_registered">Not Registered? Sign up here.</string>
+    <string name = "already_member">Already a member? Sign In Here</string>
+    <string name = "sign_up">Sign Up</string>
+    <string name = "email">E-mail</string>
+    <string name = "confirm_pwd">Confirm Password</string>
+    <string name = "welcome_msg">Welcome to YoYo Jobs!</string>
+    <string name = "fields_required">All fields below are required.</string>
+    <string name = "slogan">Sign Up. Get Employed.</string>
+    <string name = "job1">Manufacturing</string>
+    <string name = "job2">General Labor</string>
+    <string name = "job3">Food Service</string>
+    <string name = "job4">Hospitality</string>
+    <string name = "job5">Customer Service</string>
+    <string name = "job6">Skilled Trade</string>
+    <string name = "my_profile">My Profile</string>
+    <string name = "open">Open</string>
+    <string name = "close">Close</string>
+    <string name = "home">Home</string>
+    <string name = "job_type">Job Type</string>
+    <string name = "open_positions">Open Positions</string>
+    <string name = "hiring">Currently Hiring</string>
+    <string name = "apply">Click To Apply</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name = "hello_job_fragment">Hello Job fragment</string>
+    <string name = "title_activity_nav_drawer">YoYo Jobs</string>
+    <string name = "navigation_drawer_open">Open navigation drawer</string>
+    <string name = "navigation_drawer_close">Close navigation drawer</string>
+    <string name = "nav_header_title">Android Studio</string>
+    <string name = "nav_header_subtitle">android.studio@android.com</string>
+    <string name = "nav_header_desc">Navigation header</string>
+    <string name = "action_settings">Settings</string>
+
+    <string name = "menu_home_frag">Home Fragment</string>
+    <string name = "menu_gallery">Gallery</string>
+    <string name = "hello_Resume_fragment">Hello Resume Fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name = "hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

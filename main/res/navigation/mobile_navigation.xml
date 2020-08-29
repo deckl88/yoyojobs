@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:app = "http://schemas.android.com/apk/res-auto"
+    xmlns:tools = "http://schemas.android.com/tools"
+    android:id = "@+id/mobile_navigation"
+    app:startDestination = "@+id/menu_home">
+
+    <fragment
+        android:id = "@+id/menu_home"
+        android:name = "app.mobiledev.yoyojobsproject.ui.home.HomeFragment"
+        android:label = "@string/menu_home_frag"
+        tools:layout = "@layout/fragment_home" >
+        <action
+            android:id = "@+id/action_menu_home_to_jobsSearch"
+            app:destination = "@id/jobsSearch" />
+        <action
+            android:id = "@+id/action_menu_home_to_contactUs"
+            app:destination = "@id/jobsSearch" />
+        <action
+            android:id = "@+id/action_menu_home_to_nav_create_resume"
+            app:destination = "@id/nav_create_resume" />
+    </fragment>
+
+    <fragment
+        android:id = "@+id/jobsSearch"
+        android:name = "app.mobiledev.yoyojobsproject.JobSearchFragment"
+        android:label = "jobsearch"
+        tools:layout = "@layout/fragment_job_search" />
+
+    <fragment
+        android:id = "@+id/nav_create_resume"
+        android:name = "app.mobiledev.yoyojobsproject.CreateResumeFragment"
+        android:label = "createresume"
+        tools:layout = "@layout/fragment_create_resume" />
+    <fragment
+        android:id="@+id/action_menu_home_to_contactUs"
+        android:name="app.mobiledev.yoyojobsproject.ContactUsFragment"
+        android:label="contactUs"
+        tools:layout="@layout/fragment_contact_us"
+        />
+
+</navigation>
